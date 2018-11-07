@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/DensityHeader.h
+iostream
+-
+
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/DensityMap.h
+Vector3.h
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/Vector3.h
+RigidTrans3.h
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/RigidTrans3.h
+ChemMolecule.h
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/ChemMolecule.h
+Surface.h
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/Surface.h
+vector
+-
+iostream
+-
+fstream
+-
+DensityHeader.h
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/DensityHeader.h
+
+/cs/usr/kobi/my_cbio/dina project/code/p/main.cpp
+iostream
+-
+EMlib/DensityMap.h
+/cs/usr/kobi/my_cbio/dina project/code/p/EMlib/DensityMap.h
+
